@@ -1,5 +1,5 @@
-import React, { useEffect, useRef, useState } from "react";
-import "./Header.css";
+import React, {useRef} from "react";
+import "./Header.scss";
 const Header = () => {
   const close = useRef(null);
 
@@ -8,14 +8,14 @@ const Header = () => {
   };
   return (
     <>
-      <div className="header" id="header">
+      <header className="header" id="header">
         <div className="main_nav">
           <div className="container">
             <div className="row align-items-center justify-content-around " style={{ marginTop:"20px"}}>
               <div className="col-lg-2 col-md-12 logo_wrap">
                 <div>
-                  <a href="/#home">
-                    {" "}
+                  <a href="#home">
+                
                     <img className="logo" src="images/logo.png" alt="" />
                   </a>
                 </div>
@@ -56,7 +56,7 @@ const Header = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#contact" className="link">
+                      <a href="#footer" className="link">
                         Contact Us
                       </a>
                     </li>
@@ -102,7 +102,7 @@ const Header = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="#contact" className="link">
+                        <a href="#footer" className="link">
                           Contact Us
                         </a>
                       </li>
@@ -118,7 +118,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-      </div>
+      </header>
     </>
   );
 };

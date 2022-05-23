@@ -1,0 +1,141 @@
+
+ .footer{
+   .join{
+    h6{
+      width: 310px;
+      height: 42px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 130%;
+      color: #ffffff;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+    .desc {
+      width: 397px;
+      height: 58px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 160%;
+      color: #ffffff;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+   }
+
+ .subscribe{
+  input {
+ 
+    padding: 13px;
+    gap: 30px;
+    width: 370px;
+    height: 52px;
+    background: #cccccc;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: none;
+    outline: none;
+  }
+  .sub{
+  padding: 16px;
+  gap: 10px;
+  width: 114px;
+  height: 53px;
+  background: #3254F1;
+  border-radius: 0px 8px 8px 0px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  color: #E6E6E6;
+  font-family: 'Roboto';
+  }
+ }
+.menu{
+  p {
+    width: 210px;
+    height: 31px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    color: #ffffff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  ul {
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+    .link {
+      text-decoration: none;
+      width: 190px;
+      height: 29px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 160%;
+      color: #cccccc;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      cursor: pointer;
+      margin: 5px 0px;
+    }
+    
+  }
+}
+
+
+.dummy {
+  width: 126px;
+  height: 48px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.copy-right {
+  width: 441.5px;
+  height: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.policy {
+  width: 441.5px;
+  height: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #c1cbfb;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+  
+ }
+
+
+
+
+
+
+
